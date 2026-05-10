@@ -1,2 +1,2 @@
-# devops-gitops-journey
+# Devops-gitops-journey
 GitOps DevOps learning journey
