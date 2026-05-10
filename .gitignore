@@ -1,0 +1,29 @@
+# Secrets — NEVER commit these
+*.pem
+*.key
+*.env
+.env*
+secrets/
+credentials/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+node_modules/
+__pycache__/
+*.pyc
+dist/
+build/
+
+# Terraform state (contains secrets!)
+*.tfstate
+*.tfstate.backup
+.terraform/
